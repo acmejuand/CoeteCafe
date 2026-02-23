@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Coete Café — Tu lugar, tu café</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1><span class="logo-text">Coete</span> Café 🚀</h1>
+    <nav>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#locaciones">Locaciones</a>
+      <a href="#contacto">Contacto</a>
+      <a href="https://www.instagram.com/cafecoete/" target="_blank" class="insta-link">Instagram</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h2>Tu lugar, tu café favoritos en 3 locaciones</h2>
+    <p>¡Bienvenid@ a Coete Café! Descubre dónde despegar tu día ☕️</p>
+  </section>
+  <section id="nosotros" class="seccion">
+    <h2>Sobre Coete Café</h2>
+    <p>
+      Más que una cafetería, somos una comunidad apasionada por el café y los buenos momentos.<br>
+      Ven a vivir tu experiencia en cualquiera de nuestras sucursales.
+    </p>
+  </section>
+  <section id="locaciones" class="seccion">
+    <h2>Nuestras Locaciones</h2>
+    <div class="locacion">
+      <h3>Luis Thayer Ojeda, SCL</h3>
+      <div class="loc-content">
+        <div class="loc-menu-info">
+          <p><a href="menu-thayer.pdf" target="_blank" class="cta">Ver Carta</a></p>
+          <p><a href="https://www.instagram.com/cafecoete/" target="_blank" class="insta-link">@cafecoete</a></p>
+        </div>
+        <div class="loc-map">
+          <!-- Pon aquí el iframe del mapa real de esta sucursal -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.5684371933918!2d-70.6000002!3d-33.4166666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cffb1c4bb34b%3A0xEXAMPLE!2sLuis%20Thayer%20Ojeda%2C%20Providencia!5e0!3m2!1ses-419!2scl!4v0000000000000!5m2!1ses-419!2scl" width="300" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="locacion">
+      <h3>Pedro de Valdivia, SCL</h3>
+      <div class="loc-content">
+        <div class="loc-menu-info">
+          <p><a href="menu-pedro.pdf" target="_blank" class="cta">Ver Carta</a></p>
+          <p><a href="https://www.instagram.com/cafecoete/" target="_blank" class="insta-link">@cafecoete</a></p>
+        </div>
+        <div class="loc-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.198375093705!2d-70.620000!3d-33.420000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf5cXLINK!2sPedro%20de%20Valdivia%2C%20Santiago!5e0!3m2!1ses-419!2scl!4v1111111111111!5m2!1ses-419!2scl" width="300" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="locacion">
+      <h3>Concepción</h3>
+      <div class="loc-content">
+        <div class="loc-menu-info">
+          <p><a href="menu-conce.pdf" target="_blank" class="cta">Ver Carta</a></p>
+          <p><a href="https://www.instagram.com/cafecoete/" target="_blank" class="insta-link">@cafecoete</a></p>
+        </div>
+        <div class="loc-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.669746560018!2d-73.050000!3d-36.830000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966af1234ADDRESS!2sConcepción!5e0!3m2!1ses-419!2scl!4v2222222222222!5m2!1ses-419!2scl" width="300" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contacto" class="seccion">
+    <h2>Contáctanos</h2>
+    <p>¿Preguntas, sugerencias o quieres trabajar con nosotros?</p>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <footer>
+    <p>© 2026 Coete Café — Santiago & Concepción, Chile</p>
+  </footer>
+</body>
+</html>  
